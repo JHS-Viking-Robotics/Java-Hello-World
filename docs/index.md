@@ -1,37 +1,10 @@
-## Welcome to GitHub Pages
+# JHS Viking Robotics Intro To Java
 
-You can use the [editor on GitHub](https://github.com/JHS-Viking-Robotics/Java-Hello-World/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+Welcome to the Java-Hello-World wiki! By following this documentation, you will:
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+- [Install and learn about the WPI Library for FRC programs](https://github.com/JHS-Viking-Robotics/Java-Hello-World/wiki/Install-Software)
+- [Install and learn about Git and version control](https://github.com/JHS-Viking-Robotics/Java-Hello-World/wiki/Learn-Git)
+- [Learn the basics of the Java progrmaming language](https://github.com/JHS-Viking-Robotics/Java-Hello-World/wiki/Learn-Java)
+- [Build your first ```Hello-World``` program to drive a robot with a controller](https://github.com/JHS-Viking-Robotics/Java-Hello-World/wiki/Hello-World)
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/JHS-Viking-Robotics/Java-Hello-World/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+To get started, head over to the first section [Install Software](https://github.com/JHS-Viking-Robotics/Java-Hello-World/wiki/Install-Software).
