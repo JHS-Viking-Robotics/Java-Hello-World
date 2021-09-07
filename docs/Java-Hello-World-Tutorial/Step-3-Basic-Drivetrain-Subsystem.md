@@ -1,10 +1,10 @@
 # Basic Drivetrain Subsystem
 
-Now that we have a blank copy of this project on our computer, we can start writing some code. The first thing we will do is make our robot drive around using a joystick for input from a driver.
+Now that we have a blank copy of this project on our computer, we can start writing some code. The first thing we will do is make our robot drive around using a video game controller.
 
 ## Create The Subsystem
 
-Whenever we have hardware on our robot that we would like to control with our robot program, we need to add this hardware to a ```subsystem```. A subsystem is a Java class which gives the rest of our program an interface for controlling hardware components.
+Whenever we have physical hardware on our robot that we would like to control with our robot program, we need to add this hardware to a ```subsystem```. A subsystem is a Java class which gives the rest of our program an interface for controlling hardware components.
 
 Our ```Drivetrain``` subsystem will consist of 4 motor controllers. 2 Talon SRX controllers act as primary controllers, and 2 Victor SPX controllers follow the Talon SRX controllers. We will have some private member variables which represent the physical motor controllers. We will also have public methods which will tell the controllers to move a certain direction
 
@@ -57,7 +57,9 @@ public class Drivetrain extends SubsystemBase {
 ...
 ```
 
-We should add a constructor field to this class, so that the subsystem will be created with references to its corresponding hardware. Let's add the following section to the ```Drivetrain``` constructor:
+First we import the necessary motor controller classes, then we declare new objects for each of our physical motor controllers. We also import and declare a ```DifferentialDrive``` object, which helps us translate joystick input to left and right motor output. We will need this later. Note that we declared all of these variables as ```private final```, which we will talk about later.
+
+We declared our variables, but we still need to instantiate them. We should add a constructor field to this class, so that when the subsystem is created the hardware will be set up as well. Let's add the following section to the ```Drivetrain``` constructor:
 
 ```java
   /** Creates a new Drivetrain. */
@@ -88,8 +90,8 @@ Now we have 4 motor controller objects available to our subsystem, which corresp
     leftFollower.follow(leftMain);
     rightFollower.follow(rightMain);
 
-// Create a DifferentialDrive object for computing motor output from
-    // joystick directional inputs
+    // Create a DifferentialDrive object for computing motor
+    // output from joystick directional inputs
     diffDrive = new DifferentialDrive(leftMain, rightMain);
 
 ```
@@ -157,8 +159,8 @@ public class Drivetrain extends SubsystemBase {
     leftFollower.follow(leftMain);
     rightFollower.follow(rightMain);
 
-    // Create a DifferentialDrive object for computing motor output from
-    // joystick directional inputs
+    // Create a DifferentialDrive object for computing motor
+    // output from joystick directional inputs
     diffDrive = new DifferentialDrive(leftMain, rightMain);
   }
 
