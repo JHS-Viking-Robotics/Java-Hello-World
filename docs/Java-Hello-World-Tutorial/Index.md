@@ -13,6 +13,6 @@ We will follow the following basic flow:
 - Build a basic drivetrain subsystem
 - Add subsystem constants to Constants.java
 - Write basic driving commands
-- Connect commands to button presses
+- [Connect commands to button presses](#/java-hello-world-tutorial/step-5-bringing-it-together)
 - Add the subsystem to the Shuffleboard
 - Safety override mode
