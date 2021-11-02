@@ -1,3 +1,7 @@
+---
+title: Learn Git
+nav_order: 3
+---
 # Learn The Basics Of git
 
 In this section we will learn about version control and discuss the importance of managing code. We will look at the VCS program Git and a GUI for it called Sourcetree. We will register an account on GitHub, a website which hosts remote Git repositories for collaboration. Finally, we will look at templates for common Git actions such as commits, pull requests, and tagging.

@@ -1,3 +1,7 @@
+---
+title: Install Software
+nav_order: 2
+---
 # Install Software
 
 In this section, we will install the following programs on our computer:

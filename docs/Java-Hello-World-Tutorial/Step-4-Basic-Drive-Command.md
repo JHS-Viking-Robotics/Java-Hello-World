@@ -1,3 +1,8 @@
+---
+title: "Step 4: Basic Drive Command"
+parent: "Tutorial: Java-Hello-World"
+nav_order: 4
+---
 # Basic Drive Command
 
 In the previous step, we created a new subsystem for interacting with our drivetrain from our code. Now we need to create a ```TeleopDrive``` command for when we want to drive our robot, as well as connect our Xbox controller as inputs for the command.

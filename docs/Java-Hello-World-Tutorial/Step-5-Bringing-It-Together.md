@@ -1,3 +1,8 @@
+---
+title: "Step 5: Bringing It Together"
+parent: "Tutorial: Java-Hello-World"
+nav_order: 5
+---
 # Bringing It Together
 
 Now that we have a working subsystem and command, we need to write a main program which combines our robot components. This program will also be responsible for scheduling commands to run, and collecting input from the controllers in the Driver Station.

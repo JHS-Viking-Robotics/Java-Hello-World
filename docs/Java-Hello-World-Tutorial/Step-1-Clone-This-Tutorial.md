@@ -1,3 +1,8 @@
+---
+title: "Step 1: Clone This Tutorial"
+parent: "Tutorial: Java-Hello-World"
+nav_order: 1
+---
 # Clone This Tutorial
 
 The very first step to any programming project is getting version control set up. Check out [this guide](//TODO: Add link to Install-Git) if you have not set up git on your computer. In this section, we will clone this tutorial project from GitHub to our local computer, pull any new changes, checkout a new branch to develop on, make our first commit on this new branch, and then finally push our changes back to GitHub.

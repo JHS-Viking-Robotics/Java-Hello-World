@@ -1,3 +1,8 @@
+---
+title: "Step 3: Basic Drivetrain Subsystem"
+parent: "Tutorial: Java-Hello-World"
+nav_order: 3
+---
 # Basic Drivetrain Subsystem
 
 Now that we have a blank copy of this project on our computer, we can start writing some code. The first thing we will do is make our robot drive around using a video game controller.

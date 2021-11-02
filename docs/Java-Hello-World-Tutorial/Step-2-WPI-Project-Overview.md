@@ -1,3 +1,8 @@
+---
+title: "Step 2: WPI Project Overview"
+parent: "Tutorial: Java-Hello-World"
+nav_order: 2
+---
 # WPI Project Overview
 
 Now that we have a copy of this repository on our computer, we can start to look at the different components and what they do. Check out the [official documentation](//TODO:-add-link-to-wpi-docs) for more detailed information on each part. For this tutorial, we will only talk about a few files, and also how to build and deploy code to a robot.

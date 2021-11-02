@@ -31,13 +31,13 @@ logo: "/assets/images/jhs-robotics.png"
 # Site variables
 # Find more information on https://pmarsceill.github.io/just-the-docs/
 
-color_scheme: dark
+color_scheme: light
 search_enabled: true
 aux_links:
     "Team GitHub":
         - "//github.com/JHS-Viking-Robotics"
     "Team Website":
-        - "//github.com/JHS-Viking-Robotics"
+        - "//www.jhsvikingrobotics.com/"
     "WPILib Docs":
         - "//docs.wpilib.org/en/stable/"
 

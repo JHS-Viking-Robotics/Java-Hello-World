@@ -1,3 +1,7 @@
+---
+title: Learn Java
+nav_order: 4
+---
 # Learn The Basics Of Java
 
 In the following section, we will explore some learning resources for Java and FRC projects.

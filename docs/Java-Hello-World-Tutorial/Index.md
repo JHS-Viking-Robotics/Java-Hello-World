@@ -1,3 +1,8 @@
+---
+title: "Tutorial: Java-Hello-World"
+nav_order: 5
+has_children: true
+---
 # Java Hello-World Tutorial
 
 This tutorial will cover how to build a command-based FRC robot for the 2020 season. This tutorial is aimed to be beginner friendly, but before you begin you should:
