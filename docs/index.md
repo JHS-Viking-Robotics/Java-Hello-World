@@ -1,3 +1,7 @@
+---
+title: Home
+nav_order: 1
+---
 # JHS Viking Robotics Intro To Java
 
 Welcome to the Java-Hello-World wiki! By following this documentation, you will:
