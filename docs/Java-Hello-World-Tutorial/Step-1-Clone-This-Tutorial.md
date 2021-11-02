@@ -1,12 +1,12 @@
 # Clone This Tutorial
 
-The very first step to any programming project is getting version control set up. Check out [this guide](//TODO) if you are not familiar with why version control is so important or you do not understand any of the terms. In this section, we will clone this tutorial project from GitHub to our local computer, pull any new changes, checkout a new branch to develop on, make our first commit on this new branch, and then push our changes back to GitHub.
+The very first step to any programming project is getting version control set up. Check out [this guide](//TODO: Add link to Install-Git) if you have not set up git on your computer. In this section, we will clone this tutorial project from GitHub to our local computer, pull any new changes, checkout a new branch to develop on, make our first commit on this new branch, and then finally push our changes back to GitHub.
 
 ## Cloning The Project
 
 The source code for this guide that you are reading is actually contained in a [GitHub repository](https://github.com/JHS-Viking-Robotics/Java-Hello-World), just like the code we use for the official competition robot. When we want to use or edit the code, we first need to ```clone``` the repository to our local machine. To do this, we will need to copy down the remote project URL on the main page for our ```GitHub``` repository.
 
-Go to the [JHS-Viking-Robotics/Java-Hello-World](https://github.com/JHS-Viking-Robotics/Java-Hello-World) project on ```GitHub``` and click the big green ```Code``` button. Then, copy the URL that begins with ```https://``` (alternatively, check out SSH access for quicker access in the future). The URL should look like this:
+Go to the [JHS-Viking-Robotics/Java-Hello-World](https://github.com/JHS-Viking-Robotics/Java-Hello-World) project on ```GitHub``` and click the big green ```Code``` button. Then, copy the URL that begins with ```https://``` (//TODO: Add link to SSH setup with GitHub alternatively, check out SSH access for quicker access in the future). The URL should look like this:
 
 //TODO: Add link for setting up SSH access, as well as a section in Learn-Git.md
 
@@ -90,3 +90,5 @@ Now when someone looks at our changes, they can understand not only what we chan
 ## Push To GitHub
 
 Eventually, we need to send our changes back up to GitHub so that the rest of our team can see our progress. When we are on our own branch, we can simply hit ```Push``` at the top of ```Sourcetree```, and make sure that our ```branch``` is the only one selected. For this tutorial, you can choose to skip this step if you do not want anyone else to see your work.
+
+//TODO: Add section on merging branches within GitHub

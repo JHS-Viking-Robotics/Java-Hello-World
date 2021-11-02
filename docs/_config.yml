@@ -26,13 +26,28 @@ domain: jhs-viking-robotics.github.io
 url: "https://jhs-viking-robotics.github.io/"
 baseurl: ""
 github_username: jhsvikingrobotics
+logo: "/assets/images/jhs-robotics.png"
 
 # Site variables
+# Find more information on https://pmarsceill.github.io/just-the-docs/
+
+color_scheme: dark
+search_enabled: true
+aux_links:
+    "Team GitHub":
+        - "//github.com/JHS-Viking-Robotics"
+    "Team Website":
+        - "//github.com/JHS-Viking-Robotics"
+    "WPILib Docs":
+        - "//docs.wpilib.org/en/stable/"
+
+aux_links_new_tab: true
 
 # Build settings
-theme: jekyll-theme-cayman
+remote_theme: pmarsceill/just-the-docs
 plugins:
-  - jekyll-feed
+    - jekyll-feed
+    - jekyll-sitemap
 
 # Exclude from processing.
 # The following items will not be processed, by default.
