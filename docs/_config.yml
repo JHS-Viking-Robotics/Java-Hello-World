@@ -30,7 +30,7 @@ logo: "/assets/images/jhs-robotics.png"
 # Site variables
 # Find more information on https://pmarsceill.github.io/just-the-docs/
 
-permalink: /:categories/:title
+permalink: /:title
 color_scheme: light
 search_enabled: true
 aux_links:
