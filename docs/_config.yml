@@ -30,6 +30,7 @@ logo: "/assets/images/jhs-robotics.png"
 # Site variables
 # Find more information on https://pmarsceill.github.io/just-the-docs/
 
+permalink: /:categories/:title
 color_scheme: light
 search_enabled: true
 aux_links:
@@ -43,6 +44,7 @@ aux_links:
 aux_links_new_tab: true
 
 # Build settings
+
 remote_theme: pmarsceill/just-the-docs
 
 # Exclude from processing.
