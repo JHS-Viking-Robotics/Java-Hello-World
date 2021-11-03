@@ -24,7 +24,6 @@ description: >-
   JHS Viking Robotics Java tutorial for FRC programming
 domain: jhs-viking-robotics.github.io
 url: "https://jhs-viking-robotics.github.io"
-baseurl: ""
 github_username: jhsvikingrobotics
 logo: "/assets/images/jhs-robotics.png"
 
