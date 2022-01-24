@@ -5,13 +5,21 @@ nav_order: 1
 ---
 # Windows 10 IDE Setup
 
+> **_Note:_** See the first section [Driver Station](#driver-station) if you only need to operate an existing robot.
+
 These setup instructions will allow you to write and deploy code from your Linux computer, as well as operate and talk to the robot and use the Phoenix Tuner for CTRE equipment.
 
-> **_Note:_**  You might need to set up Windows Subsystem Linux for parts of this configuration to work. Run ```wsl --install``` in Powershell if you do not have this already. See [Microsoft's Documentation](https://docs.microsoft.com/en-us/windows/wsl/install) for help.
+> **_Note:_**  You might need to set up Windows Subsystem Linux for parts of this configuration to work. Open Powershell as an administrator, and run ```wsl --install``` if you do not have this already. See [Microsoft's Documentation](https://docs.microsoft.com/en-us/windows/wsl/install) for help.
+
+## Driver Station
+
+Follow the instructions detailed [here](https://docs.wpilib.org/en/stable/docs/zero-to-robot/step-2/frc-game-tools.html#installing-the-frc-game-tools) in the WPILib docs to set up the Driver Station. The process is essentially:
+
+1. Uninstall old versions of the DS by opening ```Add or Remove Programs```, finding ```NI Software```, and choosing ```Uninstall```
+2. Install this year's [Game Tools](https://www.ni.com/en-us/support/downloads/drivers/download.frc-game-tools.html), making sure to choose the right year
+3. Follow the prompts. You will need to enter your team's license during the installation
 
 ## git
-
----
 
 ```git``` is a Version Control Systems (VCS). It keeps track of file changes and versions, and it enables collaboration in programming teams. Throughout this guide, we will be using ```git``` on our local computer with Sourcetree as a GUI, and we will use GitHub for hosting our code in the cloud.
 
@@ -19,8 +27,6 @@ These setup instructions will allow you to write and deploy code from your Linux
 2. [Install ```git```](https://git-scm.com/downloads) on your computer. During installation, select ```Override default branch name``` to ```main``` (read more [here](https://github.com/github/renaming/) about this decision). Leave all other settings as default
 
 ## Sourcetree
-
----
 
 ```git``` itself is a command line program, which means you have to use a Windows CMD shell or macOS/Linux Bash shell to access it. Using the command line might look something like this:
 
@@ -62,8 +68,6 @@ git config --global commit.template ./.gitmessage.txt \
 
 ## WPI Library
 
----
-
 We now have ```git``` and ```Sourcetree``` installed. We need to install the ```WPI Library```, which is the official codebase for FRC projects (read more [on the official docs](https://docs.wpilib.org/en/stable/docs/software/what-is-wpilib.html)). This installation will come with a copy of Microsoft's ```Visual Studio Code```  pre-configured with ```Java```, ```Gradle```, ```Maven```, and other tools for ```Java``` development.
 
 1. Go to the [WPILib GitHub page](https://github.com/wpilibsuite/allwpilib/releases), scroll down, and download the newest installer labeled ```WPILib_Windows64-<VERSION>.iso```
@@ -72,16 +76,12 @@ We now have ```git``` and ```Sourcetree``` installed. We need to install the ```
 
 ## CTRE Phoenix Library
 
----
-
 The final piece of software to install is the ```Phoenix Library``` from [Cross The Road Electronics](https://docs.ctre-phoenix.com/en/stable/index.html). This library allows us to easily integrate CTRE hardware like Talon SRX motor controllers or Pigeon IMU's into our code. While we could do all of these things with just the WPI Library, it is much simpler and recommended to use the official ```Phoenix Library```.
 
 1. Go to the [CTRE GitHub page](https://github.com/CrossTheRoadElec/Phoenix-Releases/releases) and download the newest installer labeled ```CTRE_Phoenix_Framework_<VERSION>.exe```
 2. Run the installer, and make sure that ```Phoenix Tuner``` and ```C++/Java``` are selected
 
 ## Next Steps
-
----
 
 You should now have Git, Sourcetree, the WPI Library, and the CTRE Phoenix Library installed on your computer.
 
