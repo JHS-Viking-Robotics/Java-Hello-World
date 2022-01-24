@@ -8,8 +8,6 @@ In the following section, we will explore some learning resources for Java and F
 
 ## Learning Java
 
----
-
 Java is one of the most popular programming languages in the world, and there are tons of great learning resources out there. Eventually in this tutorial we will walk through building a basic FRC program in Java, but first we need a basic understanding of how Java works.
 
 A great place to start is Codecademy's [Java Course](https://www.codecademy.com/learn/learn-java), which covers in detail all of the basics of Java. If you have some programming experience, you may prefer to check out [this article by Hacker.io](https://hackr.io/blog/best-way-to-learn-java) or [this tutorial by SoftwareTestingHelp](https://www.softwaretestinghelp.com/java/) which go into more advanced detail about Java.
@@ -18,8 +16,6 @@ Once you've got the basics down, you can also check out FRC Team 3255's [FRC Jav
 
 ## Advanced Java Concepts
 
----
-
 There are some advanced concepts we will use which are not covered in many beginner courses for Java, which primarily include Java's newer lambda and Supplier class features. You can learn about these in the links below, but don't worry if you are having trouble understanding these concepts, as we will revisit them later.
 
 - [Blog post by Stacktraceguru](https://stacktraceguru.com/java-lambda-expression/?utm_source=stackoverflow&utm_medium=post#thinksToKnowAboutLambda) - Java Lambda expressions
@@ -27,8 +23,6 @@ There are some advanced concepts we will use which are not covered in many begin
 - [WPILib Convenience Features](https://docs.wpilib.org/en/stable/docs/software/commandbased/convenience-features.html#lambda-expressions-java) - WPILib docs on advanced Java techniques
 
 ## Technical References
-
----
 
 For specific technical questions, it is often best to go to the official documentation for answers:
 
@@ -40,8 +34,6 @@ For specific technical questions, it is often best to go to the official documen
 - CTRE Phoenix [Java examples](https://github.com/CrossTheRoadElec/Phoenix-Examples-Languages/tree/master/Java%20General)
 
 ## Next Steps
-
----
 
 You should now have a basic understanding of the Java programming language and OOP, and how to use Java for FRC projects.
 

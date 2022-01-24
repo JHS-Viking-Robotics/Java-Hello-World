@@ -8,13 +8,9 @@ In this section we will learn about version control and discuss the importance o
 
 ## Register With GitHub
 
----
-
 The first step to using any of these tools is signing up for a ```GitHub``` account over on the [GitHub website](https://github.com/). Their website is also an excellent source of tutorials and cheat sheets if you are confused with ```git``` at any point.
 
 ## Intro To Version Control
-
----
 
 Version control is super important when working on projects of any size, and especially when working with a team. At some point you have probably seen (and probably created) a project that has a bunch of files like this:
 
@@ -42,8 +38,6 @@ You can check out [this guide](https://www.atlassian.com/git/tutorials/what-is-v
 
 ## Using git
 
----
-
 ```git``` is a command line program, so we use ```Sourcetree``` as a pretty GUI instead of typing a bunch of commands. Many online sources will use the command line, but each command that you see should directly correspond to a button in ```Sourcetree```.
 
 ```git``` is [famously very tricky to learn](https://xkcd.com/1597/), but it is really useful once you understand what it is you are doing. The key is patience and practice. Check out some of these guides for using ```git```:
@@ -56,8 +50,6 @@ You can check out [this guide](https://www.atlassian.com/git/tutorials/what-is-v
 - [Blog post by Chris Beams](https://chris.beams.io/posts/git-commit/) - guide to useful commit messages
 
 ## Next Steps
-
----
 
 By now, you should know the basics of Java programming, and you should have an idea of how to use Git for version control. You should also have a GitHub account and Sourcetree set up on your computer.
 
